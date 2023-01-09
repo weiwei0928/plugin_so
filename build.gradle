@@ -1,3 +1,12 @@
+/**
+ * 必须要再plugins {}之前
+ * */
+buildscript {
+    dependencies {
+        classpath 'com.ww.easy:plugin:1.0.0-beta-0'
+    }
+}
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
     id 'com.android.application' version '7.3.1' apply false

@@ -3,7 +3,7 @@ package com.ww.plugin.so
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.ww.so.sotest.Dynamic
+import com.ww.sotest.Dynamic
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

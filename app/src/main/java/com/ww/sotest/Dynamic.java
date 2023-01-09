@@ -1,4 +1,4 @@
-package com.ww.so.sotest;
+package com.ww.sotest;
 
 public class Dynamic {
 

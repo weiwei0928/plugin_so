@@ -2,6 +2,15 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-android-extensions'
+    id 'com.ww.easy.writePluginMetaPlugin'
+    id 'com.ww.easy.activityTransformPlugin'
+}
+
+pluginMeta {
+    version = "1"
+    name = "plugin_so"
+    mainClass = "com.ww.plugin.so.MainActivity"
+    innerPlugin = false
 }
 
 android {
@@ -49,10 +58,12 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.5.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    compileOnly "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+    compileOnly 'androidx.core:core-ktx:1.2.0'
+    compileOnly 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    implementation 'com.google.android.material:material:1.1.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
