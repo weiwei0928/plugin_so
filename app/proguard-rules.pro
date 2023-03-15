@@ -19,3 +19,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+#插件的入口类和jni方法不能被混淆
+-keep class com.ww.sotest.Dynamic {*;}
+-keep class com.ww.plugin.so.** {*;}
+

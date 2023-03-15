@@ -3,10 +3,10 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
-        maven { url uri("/home/zzy/work/plugin/EasyPlugin/EasyPlugin/repos/snapshots")}
+        maven { url uri("/home/zzy/work-test/plugin/EasyPlugin/EasyPlugin/repos/snapshots")}
         maven { url uri("/Users/weiwei/AndroidStudioProjects/EasyPlugin/EasyPlugin/repos/snapshots")}
         maven { url uri("/Users/weiwei/work/study/plugin/GradlePlugin/repo")}
-        maven { url uri("/home/zzy/work/plugin/GradlePlugin/repo")}
+        maven { url uri("/home/zzy/work-test/plugin/GradlePlugin/repo")}
     }
 }
 dependencyResolutionManagement {
@@ -14,10 +14,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url uri("/home/zzy/work/plugin/EasyPlugin/EasyPlugin/repos/snapshots")}
+        maven { url uri("/home/zzy/work-test/plugin/EasyPlugin/EasyPlugin/repos/snapshots")}
         maven { url uri("/Users/weiwei/AndroidStudioProjects/EasyPlugin/EasyPlugin/repos/snapshots")}
         maven { url uri("/Users/weiwei/work/study/plugin/GradlePlugin/repo")}
-        maven { url uri("/home/zzy/work/plugin/GradlePlugin/repo")}
+        maven { url uri("/home/zzy/work-test/plugin/GradlePlugin/repo")}
     }
 }
 rootProject.name = "plugin_so"
